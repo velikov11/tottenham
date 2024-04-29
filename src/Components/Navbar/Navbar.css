@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.nav-sign{
+    background-image: linear-gradient(to right, #403B4A 0%, #E7E9BB  51%, #403B4A  100%);
+    padding: 15px 45px;
+    margin-left: 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+
+}
+    .nav-sign:hover{
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        transform: scale(1.05);
+        text-decoration: none;
+    }
+

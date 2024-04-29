@@ -1,0 +1,18 @@
+.navdown-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60% ;
+    margin-left: 25%;
+}
+
+.navdown-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 90px;
+    font-size: 20px;
+    color: #2D68C4;
+    cursor: pointer;
+
+}
